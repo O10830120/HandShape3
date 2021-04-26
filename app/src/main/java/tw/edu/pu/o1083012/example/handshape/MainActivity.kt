@@ -14,6 +14,7 @@ import tw.edu.pu.o1083012.example.handshape.ml.Shapes
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
 
         btn.setOnClickListener(object : View.OnClickListener {
